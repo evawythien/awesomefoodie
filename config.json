@@ -1,0 +1,34 @@
+{
+    "baseURL": "http://example.org/",
+    "languageCode": "es-es",
+    "title": "awesomefoodie",
+    "menu": {
+        "main": [
+            {
+                "identifier": "home",
+                "name": "home",
+                "url": "/about/"
+            },
+            {
+                "identifier": "sweet",
+                "name": "dulce",
+                "url": "/sweet/"
+            },
+            {
+                "identifier": "salted",
+                "name": "salado",
+                "url": "/salted/"
+            },
+            {
+                "identifier": "about",
+                "name": "about",
+                "url": "/about/"
+            },
+            {
+                "identifier": "contact",
+                "name": "contact",
+                "url": "/contact/"
+            }
+        ]
+    }
+}
