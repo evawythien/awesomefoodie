@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<section class="">
+    <div class="">
+        <div class="">
+            <div class="">
+                <article class="">
+                    <p><span>{{ .PublishDate.Format "January 2, 2006" }}</span> </p>
+                    <h2 class="">{{ .Title }}</h2>
+                    <img class="" src="{{ .Params.feature_image | absURL }}" alt="blog-feature-image">
+                    {{ .Content }}
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

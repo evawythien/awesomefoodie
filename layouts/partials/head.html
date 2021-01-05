@@ -3,4 +3,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <title>awesomefoodie.</title>
+
+    {{ $sass := resources.Get "sass/styles.sass" }}
+    {{ $cssOpts := (dict "targetPath" "css/main.css" ) }}
+    {{ $bundle := $sass | resources.ToCSS $cssOpts }}
+
+    <link rel="stylesheet" href="{{ $bundle.Permalink }}" media="screen">
 </head>

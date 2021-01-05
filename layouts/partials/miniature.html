@@ -1,26 +1,24 @@
 <div class="">
-	<a href="{{ .Permalink }}" class="">
-		
-		<span class="block">
-			{{ with .Params.banner }}
-			<div class="" style="background-image: url('{{ . | absURL }}');">
-			</div>
-			{{ end }}
-			<div class="px-4 mt-3 mb-3">
-				<h2 class="">{{ .Title | emojify }}</h2>
-				<h3 class="">{{ .Params.Subtitle | emojify }}</h2>
+	<span class="block">
+		{{ with .Params.banner }}
+		<div class="" style="background-image: url('{{ . | absURL }}');">
+		</div>
+		{{ end }}
+		<div class="px-4 mt-3 mb-3">
+			<h2 class="">{{ .Title | emojify }}</h2>
+			<h3 class="">{{ .Params.Subtitle | emojify }}</h2>
 				<span class="">
 					{{ dateFormat "02/01/2006" .Date }} &middot; {{ i18n "reading_time" . }}
 				</span>
-			</div>
-			<div class="px-4 mb-3 text-gray-600 overflow-ellipsis">
-				{{ with .Params.subtitle }}
-				{{ . }}
-				{{ else }}
-				{{ substr .Plain 0 256 }}
-				{{ end }}
-				<span class="text-xs mt-3 block no-underline">{{ i18n "read_more" }}...</span>
-			</div>
-		</span>
-	</a>
+		</div>
+		<div class="px-4 mb-3 text-gray-600 overflow-ellipsis">
+			{{ with .Params.subtitle }}
+			{{ . }}
+			{{ else }}
+			{{ substr .Plain 0 256 }}
+			{{ end }}
+			<span class="text-xs mt-3 block no-underline">{{ i18n "read_more" }}...</span>
+		</div>
+	</span>
+	<a href="{{ .Permalink }}" class="">Read more. </a>
 </div>

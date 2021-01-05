@@ -7,17 +7,12 @@
             {
                 "identifier": "home",
                 "name": "home",
-                "url": "/about/"
+                "url": "/"
             },
             {
-                "identifier": "sweet",
-                "name": "dulce",
-                "url": "/sweet/"
-            },
-            {
-                "identifier": "salted",
-                "name": "salado",
-                "url": "/salted/"
+                "identifier": "blog",
+                "name": "blog",
+                "url": "/blog/"
             },
             {
                 "identifier": "about",
