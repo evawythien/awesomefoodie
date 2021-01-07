@@ -1,0 +1,13 @@
+html {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.btn {
+  background-color: #9943d3;
+  padding: 5px; }

@@ -4,7 +4,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <title>awesomefoodie.</title>
 
-    {{ $sass := resources.Get "sass/styles.sass" }}
+    {{ $sass := resources.Get "sass/styles.scss" }}
     {{ $cssOpts := (dict "targetPath" "css/main.css" ) }}
     {{ $bundle := $sass | resources.ToCSS $cssOpts }}
 

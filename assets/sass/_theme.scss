@@ -1,0 +1,21 @@
+$background: #fff;
+$principal: #9943d3;
+$second: #3b3d3f;
+
+html {
+    background-color: $background;
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: $principal;
+    padding: 5px;
+}

@@ -3,7 +3,7 @@ title: "First post title"
 type: blog
 url: "/post/helloworld"
 date: 2020-06-25
-draft: true
+draft: false
 ---
 
 The standard Lorem Ipsum passage, used since the 1500s
