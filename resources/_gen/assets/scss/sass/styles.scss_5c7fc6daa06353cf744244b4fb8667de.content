@@ -3,11 +3,16 @@ html {
   font-family: "Poppins", sans-serif; }
 
 ul {
+  padding: 0;
   list-style-type: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
 
 .btn {
-  background-color: #9943d3;
+  border: 1px #f28482 solid;
   padding: 5px; }
+
+.menu li {
+  display: inline; }

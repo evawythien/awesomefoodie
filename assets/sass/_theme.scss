@@ -1,5 +1,5 @@
 $background: #fff;
-$principal: #9943d3;
+$principal: #f28482;
 $second: #3b3d3f;
 
 html {
@@ -8,14 +8,23 @@ html {
 }
 
 ul {
+    padding: 0;
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .btn {
-    background-color: $principal;
+    border: 1px $principal solid;
     padding: 5px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.footer {
 }
