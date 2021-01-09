@@ -7,22 +7,22 @@
             {
                 "identifier": "a",
                 "name": "home",
-                "url": "/"
+                "url": "./"
             },
             {
                 "identifier": "b",
                 "name": "blog",
-                "url": "/blog/"
+                "url": "blog/"
             },
             {
                 "identifier": "c",
                 "name": "about",
-                "url": "/about/"
+                "url": "about/"
             },
             {
                 "identifier": "d",
                 "name": "contact",
-                "url": "/contact/"
+                "url": "contact/"
             }
         ]
     },
