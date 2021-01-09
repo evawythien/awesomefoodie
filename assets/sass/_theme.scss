@@ -2,7 +2,7 @@ $background: #fff;
 $principal: #f28482;
 $second: #3b3d3f;
 
-html {
+* {
     background-color: $background;
     font-family: "Poppins", sans-serif;
 }
@@ -24,7 +24,4 @@ a {
 
 .menu li {
     display: inline;
-}
-
-.footer {
 }

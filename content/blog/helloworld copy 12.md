@@ -1,10 +1,9 @@
 ---
-title: "First post title"
+title: "First post title copy"
+subtitle: "First post subtitle"
 type: blog
-url: "/post/helloworld"
-date: 2020-06-25
-draft: false
-tags: taggggg
+tags : ['recipe']
+date : 2020-06-25
 ---
 
 The standard Lorem Ipsum passage, used since the 1500s

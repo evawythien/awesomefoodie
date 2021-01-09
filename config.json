@@ -5,22 +5,22 @@
     "menu": {
         "main": [
             {
-                "identifier": "home",
+                "identifier": "a",
                 "name": "home",
                 "url": "/"
             },
             {
-                "identifier": "blog",
+                "identifier": "b",
                 "name": "blog",
                 "url": "/blog/"
             },
             {
-                "identifier": "about",
+                "identifier": "c",
                 "name": "about",
                 "url": "/about/"
             },
             {
-                "identifier": "contact",
+                "identifier": "d",
                 "name": "contact",
                 "url": "/contact/"
             }
@@ -34,5 +34,8 @@
         "a",
         "b",
         "c"
-    ]
+    ],
+    "build": {
+        "destination" : "docs"
+    }
 }

@@ -19,15 +19,15 @@
 </div>
 
 
-{{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-<hr class="mb-8 mt-24">
+{{ if or ($paginator.HasPrev) ($paginator.HasNext) }} 
+<hr class="mb-8 mt-24"> 
 {{ end }}
 
 <div class="flex justify-between items-center">
     {{ with $paginator.Prev }}
     <div class="flex-1">
         <a class="no-underline mr-4" href="{{ .URL }}">
-            <!-- <img src="{{ "/icons/top_arrow.svg" | relURL }}" class="transform -rotate-90 inline-block"> -->
+            <img src="{{ "/icons/top_arrow.svg" | relURL }}" class="transform -rotate-90 inline-block"> 
         </a>
         <a href="{{ .URL }}">
             <span class="">{{ i18n "previous" | title }}</span>
