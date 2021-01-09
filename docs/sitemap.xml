@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/helloworld/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-10/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-11/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-12/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-13/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-2/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-3/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-4/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-5/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-6/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-7/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-8/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy-9/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/helloworld-copy/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/recipe/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/taggggg/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/series/</loc>
+  </url>
+  
+</urlset>

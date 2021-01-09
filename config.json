@@ -25,17 +25,16 @@
                 "url": "/contact/"
             }
         ]
-    },"taxonomies": {
+    },
+    "taxonomies": {
         "category": "categories",
         "series": "series",
         "tag": "tags"
-     },
+    },
     "tags": [
         "a",
         "b",
         "c"
     ],
-    "build": {
-        "destination" : "docs"
-    }
+    "publishdir": "docs"
 }
