@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h1 class="text-center mx-auto max-w-4xl text-4xl sm:text-5xl md:text-6xl">
+<h1 class="">
     {{ .Title }}
 </h1>
 
@@ -9,7 +9,7 @@
 </div>
 
 <div>
-    {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
+    {{ $paginator := .Paginate (where .Pages "Type" "about") }}
     {{ range $paginator.Pages }}
     <div class="max-w-xl mx-auto">
         {{ partial "miniature.html" . }}

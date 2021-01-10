@@ -1,23 +1,22 @@
-<div class="container">
-	<div class="row">
-		{{ with .Params.banner }}
-		<div class="" style="background-image: url('{{ . | absURL }}');">
-		</div>
-		{{ end }}
-		<div class="col-sm">
-			<h2 class="">{{ .Title }}</h2>
-			<h3 class="">{{ .Params.Subtitle | emojify }}</h3>
-		</div>
-		<div class="col-sm">
-			{{ dateFormat "02/01/2006" .Date }} &middot; {{ i18n "reading_time" . }}
-		</div>
-		<div class="">
-			
-			{{ substr .Plain 0 256 }}
-	
-			<span class="text-xs mt-3 block no-underline">{{ i18n "read_more" }}...</span>
-		</div>
-		<div class="col-sm">
+<div class="row">
+	{{ with .Params.banner }}
+	<div class="" style="background-image: url('{{ . | absURL }}');">
+	</div>
+	{{ end }}
+	<div class="col-6">
+		<h3 class="">{{ .Title }}</h3>
+	</div>
+	<div class="col-6 clearfix">
+		<span class="pull-right"> {{ dateFormat "02/01/2006" .Date }}</span>
+	</div>
+	<div class="col-12">
+
+		{{ substr .Plain 0 256 }}
+
+		<span class="text-xs mt-3 block no-underline">{{ i18n "read_more" }} ...</span>
+	</div>
+	<div class="col-12">
+		<div class="col text-right">
 			<a href="{{ .Permalink }}" class="btn">Read more. </a>
 		</div>
 	</div>
