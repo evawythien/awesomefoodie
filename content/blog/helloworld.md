@@ -4,7 +4,7 @@ type: blog
 url: "/post/helloworld"
 date: 2020-06-25
 draft: false
-tags: taggggg
+tags : [ "a", "b", "c" ]
 ---
 
 The standard Lorem Ipsum passage, used since the 1500s

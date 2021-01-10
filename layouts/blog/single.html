@@ -1,14 +1,33 @@
 {{ define "main" }}
 
 <section class="container">
-    <div class="row">
-        <article class="col-12 text-right">
-            <span>{{ .PublishDate.Format "January 2, 2006" }}</span>
+
+    <article class="row">
+        <div class="col-6">
             <h2 class="">{{ .Title }}</h2>
+        </div>
+
+        <div class="col-6">
+            <span>{{ .PublishDate.Format "January 2, 2006" }}</span>
+        </div>
+
+        <div class="col-12 tags">
+            <ul>
+                {{ range (.GetTerms "tags") }}
+                <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+
+        <div class="col-12">
             <img class="" src="{{ .Params.feature_image | absURL }}" alt="blog-feature-image">
+        </div>
+
+        <div class="col-12">
             {{ .Content }}
-        </article>
-    </div>
+        </div>
+    </article>
+
 </section>
 
 {{ end }}
