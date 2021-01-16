@@ -18,11 +18,6 @@
                 "identifier": "3",
                 "name": "about",
                 "url": "/about/"
-            },
-            {
-                "identifier": "4",
-                "name": "contact",
-                "url": "/contact/"
             }
         ]
     },
@@ -31,10 +26,6 @@
         "series": "series",
         "tag": "tags"
     },
-    "tags": [
-        "a",
-        "b",
-        "c"
-    ],
-    "publishdir": "docs"
+    "publishdir": "docs",
+    "enableEmoji" : true
 }
