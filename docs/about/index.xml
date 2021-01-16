@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on awesomefoodie</title>
-    <link>http://example.org/about/</link>
+    <link>https://evawythien.github.io/awesomefoodie/about/</link>
     <description>Recent content in Abouts on awesomefoodie</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language><atom:link href="http://example.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-es</language><atom:link href="https://evawythien.github.io/awesomefoodie/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://example.org/about/about/</link>
+      <link>https://evawythien.github.io/awesomefoodie/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/about/about/</guid>
+      <guid>https://evawythien.github.io/awesomefoodie/about/about/</guid>
       <description></description>
     </item>
     

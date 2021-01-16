@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on awesomefoodie</title>
-    <link>http://example.org/tags/</link>
+    <link>https://evawythien.github.io/awesomefoodie/tags/</link>
     <description>Recent content in Tags on awesomefoodie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://evawythien.github.io/awesomefoodie/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>a</title>
-      <link>http://example.org/tags/a/</link>
+      <link>https://evawythien.github.io/awesomefoodie/tags/a/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/a/</guid>
+      <guid>https://evawythien.github.io/awesomefoodie/tags/a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>b</title>
-      <link>http://example.org/tags/b/</link>
+      <link>https://evawythien.github.io/awesomefoodie/tags/b/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/b/</guid>
+      <guid>https://evawythien.github.io/awesomefoodie/tags/b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>c</title>
-      <link>http://example.org/tags/c/</link>
+      <link>https://evawythien.github.io/awesomefoodie/tags/c/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/c/</guid>
+      <guid>https://evawythien.github.io/awesomefoodie/tags/c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>recipe</title>
-      <link>http://example.org/tags/recipe/</link>
+      <link>https://evawythien.github.io/awesomefoodie/tags/recipe/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/recipe/</guid>
+      <guid>https://evawythien.github.io/awesomefoodie/tags/recipe/</guid>
       <description></description>
     </item>
     
