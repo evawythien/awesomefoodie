@@ -1,24 +1,15 @@
-<div class="row">
-	{{ with .Params.banner }}
-	<div class="" style="background-image: url('{{ . | absURL }}');">
-	</div>
-	{{ end }}
-	<div class="col-6">
-		<h3 class="">{{ .Title }}</h3>
-	</div>
-	<div class="col-6 clearfix">
-		<span class="pull-right"> {{ dateFormat "02/01/2006" .Date }}</span>
-	</div>
-	
-	<div class="col-12">
+<a href="{{ .Permalink }}">
+	<div class="row post-miniature">
+		{{ with .Params.banner }}
+		<div class="" style="background-image: url('{{ . | absURL }}');">
+		</div>
+		{{ end }}
 
-		{{ substr .Plain 0 256 }}
-
-		<span class="text-xs mt-3 block no-underline">{{ i18n "read_more" }} ...</span>
-	</div>
-	<div class="col-12">
-		<div class="col text-right">
-			<a href="{{ .Permalink }}" class="btn">Read more. </a>
+		<div class="col-6">
+			<span class="">{{ .Title }}</span>
+		</div>
+		<div class="col-6">
+			<span class="pull-right"> {{ dateFormat "02/01/2006" .Date }}</span>
 		</div>
 	</div>
-</div>
+</a>
