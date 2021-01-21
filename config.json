@@ -3,19 +3,19 @@
     "languageCode": "es-es",
     "title": "awesomefoodie",
     "menu": {
-        "main": [
+        "Main": [
             {
-                "identifier": "1",
+                "weight": "1",
                 "name": "home",
                 "url": "/"
             },
             {
-                "identifier": "2",
+                "weight": "2",
                 "name": "blog",
                 "url": "/blog/"
             },
             {
-                "identifier": "3",
+                "weight": "3",
                 "name": "about",
                 "url": "/about/"
             }

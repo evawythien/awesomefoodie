@@ -4,7 +4,8 @@
         <ul class="navbar-nav mr-auto">
 
             {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
+            {{ range .Site.Menus.main.ByName.ByWeight }}
+
             <li class="nav-item ">
                 <a class="nav-link" href="{{ .URL }}"> <span class="sr-only">{{ .Name }}</span></a>
             </li>
