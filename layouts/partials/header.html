@@ -5,11 +5,15 @@
 
             {{ $currentPage := . }}
             {{ range .Site.Menus.main.ByName.ByWeight }}
-
-            <li class="nav-item ">
-                <a class="nav-link" href="{{ .URL }}"> <span class="sr-only">{{ .Name }}</span></a>
+            {{ $currentNav := $currentPage.Name | upper }}
+            {{ $nameNav := .Name | upper }}
+            {{ $active := or (eq $currentNav $nameNav "nav" .) }}
+            <li class="nav-item {{if $active }}active{{ end }}">
+                <a href="{{ .URL }}" class="nav-link"> {{ .Name }}</a>
             </li>
             {{ end }}
+
+
         </ul>
 
     </div>

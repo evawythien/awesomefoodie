@@ -27,5 +27,6 @@
         "tag": "tags"
     },
     "publishdir": "docs",
-    "enableEmoji" : true
+    "enableEmoji" : true,
+    "pluralizelisttitles": false
 }

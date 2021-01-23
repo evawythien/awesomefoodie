@@ -33,11 +33,14 @@ a {
   display: inline;
   text-decoration: underline overline wavy blue; }
 
-.container.blog-posts {
+.container .blog-posts {
   width: 40%; }
 
 .post-miniature {
   border-bottom: 1px grey dashed; }
+
+li.nav-item.active {
+  border-bottom: #f28482 6px solid; }
 
 .heart {
   color: #f28482;
