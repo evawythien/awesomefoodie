@@ -6,6 +6,10 @@ $second: #3b3d3f;
     font-size: 16px;
 }
 
+*::selection {
+    background-color: $principal;
+}
+
 .emoji {
     font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
 }

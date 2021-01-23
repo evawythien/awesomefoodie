@@ -1,4 +1,14 @@
 .heart {
     color: $principal;
     font-size: 130%;
+    animation: boomboom 1s infinite;
+}
+
+@keyframes boomboom {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
