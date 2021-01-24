@@ -11,17 +11,9 @@
 
     {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
     {{ range $paginator.Pages }}
-
     {{ partial "miniature.html" . }}
-
     {{ end }}
 
+    {{ partial "pagination.html" . }}
 </div>
-
-
-{{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-<hr class="mb-8 mt-24">
-{{ end }}
-
-
 {{ end }}
