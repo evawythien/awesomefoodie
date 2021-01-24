@@ -1,24 +1,21 @@
 <div class="row">
-	{{ with .Params.banner }}
-	<div class="" style="background-image: url('{{ . | absURL }}');">
-	</div>
-	{{ end }}
+	
 	<div class="col-6">
-		<h3 class="">{{ .Title }}</h3>
+		<h4 class="">{{ .Title }}</h4>
 	</div>
-	<div class="col-6 clearfix">
+	<div class="col-6 ">
 		<span class="pull-right"> {{ dateFormat "02/01/2006" .Date }}</span>
 	</div>
-	
+
 	<div class="col-12">
 
-		{{ substr .Plain 0 256 }}
+		{{ substr .Plain 0 150 }}
 
 		<span class="text-xs mt-3 block no-underline">{{ i18n "read_more" }} ...</span>
 	</div>
-	<div class="col-12">
-		<div class="col text-right">
-			<a href="{{ .Permalink }}" class="btn">Read more. </a>
-		</div>
+	<div class="col-12 text-right">
+
+		<a href="{{ .Permalink }}" class="btn">Read more. </a>
+
 	</div>
 </div>

@@ -1,14 +1,11 @@
 {{ define "main" }}
-<h1 class="text-center mx-auto max-w-4xl text-4xl sm:text-5xl md:text-6xl">
-    {{ .Title }}
-</h1>
-
-<div class="">
-    {{ $tags := .Site.Taxonomies.tags }}
-</div>
 
 <div class="container post-miniature">
-
+    <div class="row">
+        <h1>
+            {{ .Title }}
+        </h1>
+    </div>
     {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
     {{ range $paginator.Pages }}
     {{ partial "miniature.html" . }}
@@ -16,4 +13,5 @@
 
     {{ partial "pagination.html" . }}
 </div>
+
 {{ end }}

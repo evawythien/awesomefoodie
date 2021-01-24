@@ -27,6 +27,9 @@
         "tag": "tags"
     },
     "publishdir": "docs",
-    "enableEmoji" : true,
-    "pluralizelisttitles": false
+    "enableEmoji": true,
+    "pluralizelisttitles": false,
+    "images": {
+        "logo": "static/images/gnoquis.png"
+    }
 }

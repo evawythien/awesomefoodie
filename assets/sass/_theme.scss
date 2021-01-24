@@ -46,14 +46,15 @@ a {
     text-decoration: underline overline wavy blue;
 }
 
-.container .blog-posts {
+.single-post {
     width: 40%;
 }
 
 .post-miniature {
     border-bottom: 1px grey dashed;
+    width: 40%;
 }
 
-li.nav-item.active{
+li.nav-item.active {
     border-bottom: $principal 6px solid;
 }

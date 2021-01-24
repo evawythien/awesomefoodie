@@ -16,6 +16,9 @@
                 {{ .Render "summary"}}
                 {{ end }}
             </div>
+
+            <img class="img-fluid" width="150px" src="{{ .Site.Params.Images.Logo | absURL }}" alt="{{ .Site.Title }}">
+
             <div class="col-sm">
                 One of three columns
             </div>
