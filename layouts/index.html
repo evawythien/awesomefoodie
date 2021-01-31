@@ -1,23 +1,21 @@
 {{ define "main" }}
 <main aria-role="main">
     <header class="homepage-header">
-        <h1 class="page-title">{{.Title}}</h1>
-        {{ with .Params.subtitle }}
-        <span class="subtitle">{{.}}</span>
-        {{ end }}
+
     </header>
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                {{.Content}}
-            </div>
-            <div class="col-sm">
-                {{ range first 10 .Site.RegularPages }}
-                {{ .Render "summary"}}
+                <h1 class="page-title">{{.Title}}</h1>
+                {{ with .Params.subtitle }}
+                <span class="subtitle">{{.}}</span>
                 {{ end }}
+
+
+                <img class="img-fluid" width="150px" src="{{ .Site.Params.Images.Logo | absURL }}"
+                    alt="{{ .Site.Title }}">
             </div>
 
-            <img class="img-fluid" width="150px" src="{{ .Site.Params.Images.Logo | absURL }}" alt="{{ .Site.Title }}">
 
             <div class="col-sm">
                 One of three columns

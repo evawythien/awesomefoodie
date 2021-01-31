@@ -30,6 +30,6 @@
     "enableEmoji": true,
     "pluralizelisttitles": false,
     "images": {
-        "logo": "static/images/gnoquis.png"
+        "logo": "../static/images/gnoquis.png"
     }
 }
