@@ -45,7 +45,10 @@ a {
 
 .tags ul li {
     display: inline;
-    text-decoration: underline overline wavy blue;
+}
+
+.tag {
+    text-decoration: underline wavy $principal;
 }
 
 .single-post {
@@ -54,7 +57,7 @@ a {
 
 .post-miniature {
     border-bottom: 1px grey dashed;
-    width: 40%;
+    width: 50%;
 }
 
 li.nav-item.active {

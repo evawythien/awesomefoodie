@@ -14,7 +14,7 @@
         <div class="col-12 tags">
             <ul>
                 {{ range (.GetTerms "tags") }}
-                <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                <li><a class="tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
                 {{ end }}
             </ul>
         </div>

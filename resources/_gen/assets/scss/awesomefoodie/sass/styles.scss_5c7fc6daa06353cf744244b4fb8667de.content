@@ -32,15 +32,17 @@ a {
   color: #f28482; }
 
 .tags ul li {
-  display: inline;
-  text-decoration: underline overline wavy blue; }
+  display: inline; }
+
+.tag {
+  text-decoration: underline wavy #f28482; }
 
 .single-post {
   width: 40%; }
 
 .post-miniature {
   border-bottom: 1px grey dashed;
-  width: 40%; }
+  width: 50%; }
 
 li.nav-item.active {
   border-bottom: #f28482 6px solid; }
