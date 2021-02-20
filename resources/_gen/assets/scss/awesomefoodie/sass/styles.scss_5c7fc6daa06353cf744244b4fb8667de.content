@@ -47,6 +47,9 @@ a {
 li.nav-item.active {
   border-bottom: #f28482 6px solid; }
 
+.text-right {
+  text-align: right; }
+
 .heart {
   color: #f28482;
   font-size: 130%;
