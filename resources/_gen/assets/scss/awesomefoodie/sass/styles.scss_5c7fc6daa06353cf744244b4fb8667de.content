@@ -20,7 +20,7 @@ a {
   padding: 15px 0px; }
 
 .btn {
-  border: 1px #f28482 solid;
+  text-decoration: underline solid #f28482 6px;
   padding: 5px; }
 
 .menu li {

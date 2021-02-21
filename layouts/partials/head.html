@@ -18,4 +18,14 @@
     {{ $bundle := $sass | resources.ToCSS $cssOpts }}
 
     <link rel="stylesheet" href="{{ $bundle.Permalink }}" media="screen">
+
+    <meta name="twitter:creator" content="@evawythien">
+    <meta itemprop="name" content="Eva de Vena">
+
+
+    <!-- Open graph -->
+    <meta name="og:title" content="Eva de Vena">
+    <meta name="og:url" content="http://int-tense.com">
+    <meta name="og:site_name" content="Eva de Vena">
+    <meta name="og:type" content="website">
 </head>
